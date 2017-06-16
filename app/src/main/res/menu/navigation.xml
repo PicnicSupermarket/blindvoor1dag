@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_basic"
+        android:icon="@drawable/ic_filter_1"
+        android:title="@string/title_basic" />
+
+    <item
+        android:id="@+id/navigation_dynamic"
+        android:icon="@drawable/ic_filter_2"
+        android:title="Visibility"/>
+
+    <item
+        android:id="@+id/navigation_custom"
+        android:icon="@drawable/ic_filter_3"
+        android:title="Custom views"/>
+
+    <!--<item-->
+        <!--android:id="@+id/navigation_list"-->
+        <!--android:icon="@drawable/ic_filter_4"-->
+        <!--android:title="Lists"/>-->
+
+</menu>

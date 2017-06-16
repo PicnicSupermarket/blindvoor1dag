@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        style="@style/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UI is dynamic. Things appear and disappear based on interaction. How do we help the users understand what's going on?" />
+
+    <TextView
+        style="@style/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="We can announce the changes ourselves with announceForAccessibility" />
+
+    <LinearLayout
+        android:id="@+id/announce_for_accessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <Button
+            android:id="@+id/first_button_announce"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show another" />
+
+        <Button
+            android:id="@+id/second_button_announce"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Click Me!"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="In the support library 22 Live Regions were introduced. Users are notified whenever the content of these regions change." />
+
+    <LinearLayout
+        android:id="@+id/live_region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <Button
+            android:id="@+id/first_button_live_region"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show another" />
+
+        <Button
+            android:id="@+id/second_button_live_region"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Click Me!"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="You may want to hide elements if the app is in accessibility mode" />
+
+    <LinearLayout
+        android:id="@+id/accessibility_visibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <Button
+            android:id="@+id/first_button_accessibility_visibility"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="I'm visible" />
+
+        <Button
+            android:id="@+id/second_button_accessibility_visibility"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="I'm not" />
+
+        <Button
+            android:id="@+id/third_button_accessibility_visibility"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:importantForAccessibility="no"
+            android:text="Or skip them" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
