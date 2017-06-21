@@ -1,3 +1,4 @@
+# Android
 *.iml
 .gradle
 /local.properties
@@ -10,3 +11,36 @@
 Accessibility101-Android/local.properties
 /captures
 .externalNativeBuild
+
+# Xcode
+#
+/build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+.DS_Store
+Accessibility101-iOS/AccessibilityDemo.xcodeproj/xcshareddata/
+
+AppCode
+.idea/
+
+# strings files
+**/InfoPlist.strings
+
+#Kaleidoscope
+*.orig
+
+# Logs
+Logs/
