@@ -5,5 +5,8 @@
 /.idea/libraries
 .DS_Store
 /build
+/Accessibility101-Android/build/
+/Accessibility101-Android/.idea/
+Accessibility101-Android/local.properties
 /captures
 .externalNativeBuild
